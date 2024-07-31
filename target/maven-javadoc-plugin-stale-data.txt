@@ -1,0 +1,76 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-classpath
+'C:/Users/Aluno/.m2/repository/jakarta/platform/jakarta.jakartaee-api/10.0.0/jakarta.jakartaee-api-10.0.0.jar;C:/Users/Aluno/.m2/repository/jakarta/platform/jakarta.jakartaee-web-api/10.0.0/jakarta.jakartaee-web-api-10.0.0.jar;C:/Users/Aluno/.m2/repository/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar;C:/Users/Aluno/.m2/repository/jakarta/servlet/jsp/jakarta.servlet.jsp-api/3.1.0/jakarta.servlet.jsp-api-3.1.0.jar;C:/Users/Aluno/.m2/repository/jakarta/el/jakarta.el-api/5.0.1/jakarta.el-api-5.0.1.jar;C:/Users/Aluno/.m2/repository/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.0/jakarta.servlet.jsp.jstl-api-3.0.0.jar;C:/Users/Aluno/.m2/repository/jakarta/faces/jakarta.faces-api/4.0.1/jakarta.faces-api-4.0.1.jar;C:/Users/Aluno/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/jakarta.ws.rs-api-3.1.0.jar;C:/Users/Aluno/.m2/repository/jakarta/websocket/jakarta.websocket-api/2.1.0/jakarta.websocket-api-2.1.0.jar;C:/Users/Aluno/.m2/repository/jakarta/websocket/jakarta.websocket-client-api/2.1.0/jakarta.websocket-client-api-2.1.0.jar;C:/Users/Aluno/.m2/repository/jakarta/json/jakarta.json-api/2.1.0/jakarta.json-api-2.1.0.jar;C:/Users/Aluno/.m2/repository/jakarta/json/bind/jakarta.json.bind-api/3.0.0/jakarta.json.bind-api-3.0.0.jar;C:/Users/Aluno/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar;C:/Users/Aluno/.m2/repository/jakarta/ejb/jakarta.ejb-api/4.0.1/jakarta.ejb-api-4.0.1.jar;C:/Users/Aluno/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar;C:/Users/Aluno/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar;C:/Users/Aluno/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar;C:/Users/Aluno/.m2/repository/jakarta/interceptor/jakarta.interceptor-api/2.1.0/jakarta.interceptor-api-2.1.0.jar;C:/Users/Aluno/.m2/repository/jakarta/enterprise/jakarta.enterprise.cdi-api/4.0.1/jakarta.enterprise.cdi-api-4.0.1.jar;C:/Users/Aluno/.m2/repository/jakarta/enterprise/jakarta.enterprise.lang-model/4.0.1/jakarta.enterprise.lang-model-4.0.1.jar;C:/Users/Aluno/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar;C:/Users/Aluno/.m2/repository/jakarta/authentication/jakarta.authentication-api/3.0.0/jakarta.authentication-api-3.0.0.jar;C:/Users/Aluno/.m2/repository/jakarta/security/enterprise/jakarta.security.enterprise-api/3.0.0/jakarta.security.enterprise-api-3.0.0.jar;C:/Users/Aluno/.m2/repository/jakarta/jms/jakarta.jms-api/3.1.0/jakarta.jms-api-3.1.0.jar;C:/Users/Aluno/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.0/jakarta.activation-api-2.1.0.jar;C:/Users/Aluno/.m2/repository/jakarta/mail/jakarta.mail-api/2.1.0/jakarta.mail-api-2.1.0.jar;C:/Users/Aluno/.m2/repository/jakarta/resource/jakarta.resource-api/2.1.0/jakarta.resource-api-2.1.0.jar;C:/Users/Aluno/.m2/repository/jakarta/authorization/jakarta.authorization-api/2.1.0/jakarta.authorization-api-2.1.0.jar;C:/Users/Aluno/.m2/repository/jakarta/batch/jakarta.batch-api/2.1.1/jakarta.batch-api-2.1.1.jar;C:/Users/Aluno/.m2/repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar;C:/Users/Aluno/.m2/repository/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'C:/Users/Aluno/Documents/NetBeansProjects/receitas/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Aluno/Documents/NetBeansProjects/receitas/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'receitas-1.0-SNAPSHOT 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'C:/Users/Aluno/Documents/NetBeansProjects/receitas/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'receitas-1.0-SNAPSHOT 1.0-SNAPSHOT API'
+com.mycompany.receitas
+com.mycompany.receitas.resources
+C:\Users\Aluno\.m2\repository\jakarta\platform\jakarta.jakartaee-api\10.0.0\jakarta.jakartaee-api-10.0.0.jar = 1717783050643
+C:\Users\Aluno\.m2\repository\jakarta\platform\jakarta.jakartaee-web-api\10.0.0\jakarta.jakartaee-web-api-10.0.0.jar = 1717783051139
+C:\Users\Aluno\.m2\repository\jakarta\servlet\jakarta.servlet-api\6.0.0\jakarta.servlet-api-6.0.0.jar = 1717783051930
+C:\Users\Aluno\.m2\repository\jakarta\servlet\jsp\jakarta.servlet.jsp-api\3.1.0\jakarta.servlet.jsp-api-3.1.0.jar = 1717783050929
+C:\Users\Aluno\.m2\repository\jakarta\el\jakarta.el-api\5.0.1\jakarta.el-api-5.0.1.jar = 1717783051288
+C:\Users\Aluno\.m2\repository\jakarta\servlet\jsp\jstl\jakarta.servlet.jsp.jstl-api\3.0.0\jakarta.servlet.jsp.jstl-api-3.0.0.jar = 1717783051289
+C:\Users\Aluno\.m2\repository\jakarta\faces\jakarta.faces-api\4.0.1\jakarta.faces-api-4.0.1.jar = 1717783051172
+C:\Users\Aluno\.m2\repository\jakarta\ws\rs\jakarta.ws.rs-api\3.1.0\jakarta.ws.rs-api-3.1.0.jar = 1717783051452
+C:\Users\Aluno\.m2\repository\jakarta\websocket\jakarta.websocket-api\2.1.0\jakarta.websocket-api-2.1.0.jar = 1717783051540
+C:\Users\Aluno\.m2\repository\jakarta\websocket\jakarta.websocket-client-api\2.1.0\jakarta.websocket-client-api-2.1.0.jar = 1717783052134
+C:\Users\Aluno\.m2\repository\jakarta\json\jakarta.json-api\2.1.0\jakarta.json-api-2.1.0.jar = 1717783051930
+C:\Users\Aluno\.m2\repository\jakarta\json\bind\jakarta.json.bind-api\3.0.0\jakarta.json.bind-api-3.0.0.jar = 1717783052153
+C:\Users\Aluno\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar = 1717783051962
+C:\Users\Aluno\.m2\repository\jakarta\ejb\jakarta.ejb-api\4.0.1\jakarta.ejb-api-4.0.1.jar = 1717783052009
+C:\Users\Aluno\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar = 1717783052601
+C:\Users\Aluno\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar = 1717783052071
+C:\Users\Aluno\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar = 1717783052102
+C:\Users\Aluno\.m2\repository\jakarta\interceptor\jakarta.interceptor-api\2.1.0\jakarta.interceptor-api-2.1.0.jar = 1717783053077
+C:\Users\Aluno\.m2\repository\jakarta\enterprise\jakarta.enterprise.cdi-api\4.0.1\jakarta.enterprise.cdi-api-4.0.1.jar = 1717783052261
+C:\Users\Aluno\.m2\repository\jakarta\enterprise\jakarta.enterprise.lang-model\4.0.1\jakarta.enterprise.lang-model-4.0.1.jar = 1717783052928
+C:\Users\Aluno\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar = 1717783052536
+C:\Users\Aluno\.m2\repository\jakarta\authentication\jakarta.authentication-api\3.0.0\jakarta.authentication-api-3.0.0.jar = 1717783053434
+C:\Users\Aluno\.m2\repository\jakarta\security\enterprise\jakarta.security.enterprise-api\3.0.0\jakarta.security.enterprise-api-3.0.0.jar = 1717783052705
+C:\Users\Aluno\.m2\repository\jakarta\jms\jakarta.jms-api\3.1.0\jakarta.jms-api-3.1.0.jar = 1717783052772
+C:\Users\Aluno\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar = 1717783052790
+C:\Users\Aluno\.m2\repository\jakarta\mail\jakarta.mail-api\2.1.0\jakarta.mail-api-2.1.0.jar = 1717783053081
+C:\Users\Aluno\.m2\repository\jakarta\resource\jakarta.resource-api\2.1.0\jakarta.resource-api-2.1.0.jar = 1717783052972
+C:\Users\Aluno\.m2\repository\jakarta\authorization\jakarta.authorization-api\2.1.0\jakarta.authorization-api-2.1.0.jar = 1717783053366
+C:\Users\Aluno\.m2\repository\jakarta\batch\jakarta.batch-api\2.1.1\jakarta.batch-api-2.1.1.jar = 1717783053760
+C:\Users\Aluno\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar = 1722449681130
+C:\Users\Aluno\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar = 1722449681575
+C:\Users\Aluno\Documents\NetBeansProjects\receitas\src\main\java = 1722448100301
+C:\Users\Aluno\Documents\NetBeansProjects\receitas\target\site\apidocs\allclasses-index.html = 1722452968507
+C:\Users\Aluno\Documents\NetBeansProjects\receitas\target\site\apidocs\allpackages-index.html = 1722452968511
+C:\Users\Aluno\Documents\NetBeansProjects\receitas\target\site\apidocs\element-list = 1722452968378
+C:\Users\Aluno\Documents\NetBeansProjects\receitas\target\site\apidocs\help-doc.html = 1722452968601
+C:\Users\Aluno\Documents\NetBeansProjects\receitas\target\site\apidocs\index-all.html = 1722452968572
+C:\Users\Aluno\Documents\NetBeansProjects\receitas\target\site\apidocs\index.html = 1722452968493
+C:\Users\Aluno\Documents\NetBeansProjects\receitas\target\site\apidocs\member-search-index.js = 1722452968532
+C:\Users\Aluno\Documents\NetBeansProjects\receitas\target\site\apidocs\module-search-index.js = 1722452968523
+C:\Users\Aluno\Documents\NetBeansProjects\receitas\target\site\apidocs\overview-summary.html = 1722452968580
+C:\Users\Aluno\Documents\NetBeansProjects\receitas\target\site\apidocs\overview-tree.html = 1722452968487
+C:\Users\Aluno\Documents\NetBeansProjects\receitas\target\site\apidocs\package-search-index.js = 1722452968526
+C:\Users\Aluno\Documents\NetBeansProjects\receitas\target\site\apidocs\search.html = 1722452968576
+C:\Users\Aluno\Documents\NetBeansProjects\receitas\target\site\apidocs\tag-search-index.js = 1722452968535
+C:\Users\Aluno\Documents\NetBeansProjects\receitas\target\site\apidocs\type-search-index.js = 1722452968528
