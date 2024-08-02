@@ -16,6 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Receita {
+    private int id;
     private String nome;
     private String descricao;
     private int tempoPreparo;
@@ -24,6 +25,10 @@ public class Receita {
     private String preparo;
 
     // Getters e Setters
+    public int getId() { return id; }
+    public void setId(int id) { this.id = id; }
+    
+    
     public String getNome() { return nome; }
     public void setNome(String nome) { this.nome = nome; }
 
@@ -46,7 +51,8 @@ public class Receita {
     public boolean salvar() {
         Connection conn = null;
         PreparedStatement ps = null;
-        String sql = "INSERT INTO receitas (nome, descricao, tempo_preparo, porcoes, ingredientes, preparo) VALUES (?, ?, ?, ?, ?, ?)";
+        String sql = "INSERT INTO receitas (nome, descricao, tempo_preparo, "
+                + "porcoes, ingredientes, preparo) VALUES (?, ?, ?, ?, ?, ?)";
 
         try {
             conn = dbUtil.getConnection();
@@ -89,6 +95,7 @@ public class Receita {
 
             while (rs.next()) {
                 Receita receita = new Receita();
+                receita.setId(rs.getInt("id"));
                 receita.setNome(rs.getString("nome"));
                 receita.setDescricao(rs.getString("descricao"));
                 receita.setTempoPreparo(rs.getInt("tempo_preparo"));
@@ -110,6 +117,48 @@ public class Receita {
         }
         return receitas;
     }
+    
+    
+    // Método para retornar somente uma receitas do banco de dados
+    public static List<Receita> getReceita(int id) {
+        List<Receita> receitas = new ArrayList<>();
+        Connection conn = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        String sql = "SELECT * FROM receitas where id = ?";
+
+        try {
+            conn = dbUtil.getConnection();
+            ps = conn.prepareStatement(sql);
+            ps.setInt(1, id);
+            rs = ps.executeQuery();
+
+            while (rs.next()) {
+                Receita receita = new Receita();
+                receita.setId(rs.getInt("id"));
+                receita.setNome(rs.getString("nome"));
+                receita.setDescricao(rs.getString("descricao"));
+                receita.setTempoPreparo(rs.getInt("tempo_preparo"));
+                receita.setPorcoes(rs.getInt("porcoes"));
+                receita.setIngredientes(rs.getString("ingredientes"));
+                receita.setPreparo(rs.getString("preparo"));
+                receitas.add(receita);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (rs != null) rs.close();
+                if (ps != null) ps.close();
+                if (conn != null) conn.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+        return receitas;
+    }
+    
+    
 }
 
 /*
