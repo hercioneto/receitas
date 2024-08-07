@@ -159,6 +159,71 @@ public class Receita {
     }
     
     
+    // Método para atualizar um registro na tabela
+    public boolean atualizar() {
+        Connection conn = null;
+        PreparedStatement ps = null;
+        String sql = "UPDATE `receitas` SET `nome` = ?, `descricao` = ?, "
+                + "`tempo_preparo` = ?, `porcoes` = ?, `ingredientes` = ?,"
+                + " `preparo` = ? WHERE `receitas`.`id` = ?";
+
+        try {
+            conn = dbUtil.getConnection();
+            ps = conn.prepareStatement(sql);
+            ps.setString(1, getNome());
+            ps.setString(2, getDescricao());
+            ps.setInt(3, getTempoPreparo());
+            ps.setInt(4, getPorcoes());
+            ps.setString(5, getIngredientes());
+            ps.setString(6, getPreparo());
+            ps.setInt(7, getId());
+            
+            
+
+            int rowsUpdate = ps.executeUpdate();
+            return rowsUpdate > 0;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        } finally {
+            try {
+                if (ps != null) ps.close();
+                if (conn != null) conn.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+    
+    
+    
+    // Método para apagar um registro na tabela
+    public boolean deletar() {
+        Connection conn = null;
+        PreparedStatement ps = null;
+        String sql = "DELETE FROM `receitas` WHERE `receitas`.`id` = ?";
+
+        try {
+            conn = dbUtil.getConnection();
+            ps = conn.prepareStatement(sql);
+            ps.setInt(1, getId());
+
+            int rowsDeleted = ps.executeUpdate();
+            return rowsDeleted > 0;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        } finally {
+            try {
+                if (ps != null) ps.close();
+                if (conn != null) conn.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+    
+    
 }
 
 /*
