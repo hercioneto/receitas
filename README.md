@@ -9,7 +9,7 @@
 
 - 📄 Know about my experiences [https://br.linkedin.com/in/hercioneto](https://br.linkedin.com/in/hercioneto)
 
-<h4 align="center">Este repositório é um projeto de estudos para alunos do RSTI.</h3>
+<h4 align="center">Este repositório é um projeto de estudos para alunos do RSTI.</h4>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
